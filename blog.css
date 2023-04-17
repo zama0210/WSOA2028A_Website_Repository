@@ -169,6 +169,7 @@ b {
       background-color: #f0ece8;
       font-size: 100%;
       font-family: 'Montserrat-Regular';
+      line-height: 1.6;
       overflow-x: hidden;
       height: 100%;
 
@@ -265,16 +266,11 @@ b {
 {
     position: relative;
     width: max-content;
+    font-size: 30px;
    
 
 }
-.card-frame
-{
-    text-indent: 0px;
-    display: flex;
-    text-align: left;
 
-}
 
 .card-heading::after
 {

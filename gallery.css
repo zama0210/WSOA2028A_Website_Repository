@@ -1,0 +1,22 @@
+.gallery
+{
+    margin: 10px 50px;
+    align-items: center;
+    transform: translate(0%,40%);
+    
+}
+ .gallery img
+ {
+    
+    padding: 5px;
+    transition: 1s;
+    
+    height: 30%;
+
+ }
+
+ .gallery img:hover
+ {
+    transform: scale(1.1);
+ }
+

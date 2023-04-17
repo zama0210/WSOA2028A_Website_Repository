@@ -23,7 +23,7 @@ h1
     top: 50%;
     left: 50%;
     transform: translate(-50%,-100%);
-    color: #1d1d1f;
+    color: whitesmoke;
 
 
 }
@@ -118,6 +118,7 @@ body
     font-size: 100%;
     font-family: 'Montserrat-Regular';
     overflow-x: hidden;
+    height: 100%;
 
 }
 
@@ -224,14 +225,8 @@ b {
     box-sizing: border-box;
   }
   
-  body {
+   
 
-    background-color: #f0ece8;
-    font-size: 100%;
-    font-family: 'Montserrat-Regular';
-    padding: 20px;
-  
-  }
   
   .container p
 {
@@ -264,11 +259,12 @@ b {
   
     
     height: 50%;
+    width: auto;
   
     
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     position: relative;
   }
   
@@ -296,7 +292,7 @@ b {
     align-items: center;
     top: 10%;
     left: 0%;
-    transform: translateY(40%);
+    transform: translateY(0%);
 }
 
 :root
