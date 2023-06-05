@@ -179,15 +179,16 @@ body {
 
 .card {
     transform: translateY(-50%);
-    color: #f5f5ff;
-    background-image: url(Images/pexels-picjumbocom-196645.jpg);
-    background-size: cover;
-    padding: 10rem 0 0;
-    max-width: 38ch;
-    border-radius: 0.5em;
-    overflow: hidden;
-    margin: 0 auto 40px auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+color: #f5f5ff;
+background-image: url(Images/pexels-picjumbocom-196645.jpg);
+background-size: cover;
+padding: 10rem 0 0;
+max-width: 38ch;
+border-radius: 0.5em;
+overflow: hidden;
+margin: 0 auto 60px auto;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .card-content {
@@ -236,7 +237,7 @@ body {
 
 .row .column {
     float: left;
-    width: 22%;
+    width: 20%;
 }
 
 .row:after {
