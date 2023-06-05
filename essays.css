@@ -329,7 +329,7 @@ b {
     background-image: url(Images/pexels-pew-nguyen-239548.jpg);
     background-size: cover;
     padding: 10rem 0 0;
-    max-width: 38ch;
+    max-width: 40ch;
     border-radius: 0.5em;
     overflow: hidden;
     margin: 0 auto 40px auto;
@@ -387,7 +387,7 @@ b {
 }
 
 .row .column {
-    float: left;
+    float:left;
     width: 50%;
 }
 
