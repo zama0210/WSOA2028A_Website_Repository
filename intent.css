@@ -159,7 +159,7 @@ img {
       
       top: 0;
       left: 0;
-      background-color: #f0ece8;
+      background-color: #eee9e4;
       z-index: 999;
       position: fixed;
      
@@ -240,7 +240,11 @@ b {
   
   body {
 
-    background-color: #f0ece8;
+    background: rgb(198,162,133);
+      background: linear-gradient(0deg, rgba(198,162,133,1) 0%, rgba(240,236,232,1) 100%);
+      background-repeat: no-repeat;
+          background-attachment: fixed;
+      font-size: 100%;
     font-size: 100%;
     font-family: 'Montserrat-Regular';
     padding: 20px;
