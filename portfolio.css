@@ -10,78 +10,26 @@
     src: url("Fonts/Montserrat-Regular.woff") format("opentype");
 }
 
-@font-face {
-    font-family: "Nunito-Italic-VariableFont";
-    src: url("Fonts/Nunito-Italic-VariableFont_wght.woff") format("opentype");
-}
 
 
-
-h1 {
-    font-family: 'Leky Calgria', Arial, sans-serif;
+h1
+{
+    font-family: 'Leky Calgria', Arial, sans-serif;;
     font-weight: normal;
     font-style: normal;
-    font-size: 150px;
+    font-size: 100px;
     position: absolute;
     text-align: center;
-    align-items: left;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-40%);
+    transform: translate(-50%,-50%);
     color: whitesmoke;
-    display: inline-block;
+
+
 }
 
 
-h2
-{
-    font-family: 'Leky Calgria', Arial, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 60px;
-    transform: translate(-120%,30%);
-    top: 20%;
-    left: 40%;
-    position: absolute;
-    text-align: center;
-    color: #1d1d1f;
-   
- 
-}
-
-
-
-*
-{
-    margin: 0;
-    padding: 0; 
-}
-
-a 
-{
-    text-decoration: none;
-    font-family: 'Montserrat-Regular',Arial, sans-serif;
-    font-weight: normal;
-    color: #1d1d1f;
-    text-transform: capitalize;
-
-}
-h3
- {
-    font-family: 'Montserrat-Regular',Arial, sans-serif;
-    font-weight: normal;
-    color: #1d1d1f;
-    
-    text-align: center;
-    position: relative;
-    top: 2%;
-    left: 0%;
-    transform: translateY(-30%);
-   
-    
- }
-
- h5
+h5
 {
     font-family: sans-serif;
     font-size: 20px;
@@ -93,24 +41,25 @@ h3
 }
 
 
-h4
+*
 {
-    font-family: 'Leky Calgria', Arial, sans-serif;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 40px;
-    position: relative;
-    text-align: center;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%,0%);
-    color: #1d1d1f;
+    margin: 0;
+    padding: 0; 
+    
 }
- 
+
+a 
+{
+    text-decoration: none;
+    font-family: 'Montserrat-Regular',Arial, sans-serif;
+    font-weight: normal;
+    color: #1d1d1f;
+    text-transform: capitalize;
+
+}
 
 
 
- 
 
 li 
 {
@@ -122,66 +71,39 @@ html
     scroll-behavior: smooth;
     margin: 0;
     padding: 0; 
+    height: 150%;
+    
 }
 
 
-body {
-    background: rgb(198, 162, 133);
-    background: linear-gradient(
-        0deg,
-        rgba(198, 162, 133, 1) 0%,
-        rgba(240, 236, 232, 1) 100%
-    );
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-size: 100%;
-    font-family: z;
-    overflow-x: hidden;
-    padding-bottom: auto;
-}
 
-section
+
+
+
+
+hr
 {
-    width: 100%;
-    float: left;
-    height: 100vh;
-    position: relative;
+    width: 30px;
+    height: 3px;
+    border: 0;
+    margin: 0 auto 40px auto;
 }
 
-
-
-img {
-    width: 20%;
-    height: auto;
-  }
-
-
-  hr
-  {
-      width: 30px;
-      height: 3px;
-      border: 0;
-      margin: 0 auto 40px auto;
-  }
-  
-  header
+header
 { 
     width: 100%;
-    min-height: auto;
+    height: 65px;
+    
     top: 0;
-    overflow: hidden;
-    display: flex;
-    background-color: #eee9e4;
+    left: 0;
+    background-color: #f0ece8;
     z-index: 999;
     position: fixed;
-    align-items: center;
+   transition: background-color 0.5s;
     justify-content: space-between;
-    vertical-align: middle;
     
    
 }
-
-
 
 
 #logo
@@ -211,10 +133,13 @@ header nav
     float: right;
     align-items: center;
     align-content: space-evenly;
-    
+    transition: height 0.25s;
     padding: 20px 60px;
 
 }
+
+
+
 
 header nav ul li
 {
@@ -231,6 +156,8 @@ header nav ul li a
     font-size: 20px;
     color: #1d1d1f;
     text-decoration: none;
+    align-items: center;
+    align-content: space-evenly;
     
 
     
@@ -240,25 +167,32 @@ b {
     font-weight: bold;
   }
  
- 
- 
+  body
+  {
+    background: rgb(224,208,193);
+    background: linear-gradient(0deg, rgba(224,208,193,1) 0%, rgba(240,236,232,1) 100%);
+    background-repeat: no-repeat;
+        background-attachment: static;
 
+      font-size: 100%;
+      font-family: 'Montserrat-Regular';
+      overflow-x: hidden;
+      height: 100%;
 
-
-* {
-    box-sizing: border-box;
-  }
   
-  .hero-image 
+  }
+
+
+.hero-image 
 {
     
     background-image: linear-gradient(
         hsl(0 17% 16% / 0),
         hsl(20 17% 16% / 0.3) 20%,
-         hsl(0 17% 16% / 1)), url("Images/pexels-pew-nguyen-239548.jpg");
+         hsl(0 17% 16% / 1)), url("Images/pexels-tranmautritam-326514.jpg");
   
     
-    height: 100%;
+    height: 50%;
   
     
     background-position: center;
@@ -266,8 +200,8 @@ b {
     background-size: cover;
     position: relative;
   }
-    
-   
+  
+ 
   .hero-text 
   {
     text-align: center;
@@ -278,97 +212,91 @@ b {
     color: whitesmoke;
   }
   
-    
-  
-  
-  p
+.hero-paragraph
 {
-    text-align: center;
-    text-indent: 22px;
-    
-    
-} 
-  
-
-
-.container {
-    margin-top: 20px;
-    padding: 0 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-}
-
-.container p {
     font-family: 'Montserrat-Regular', Arial, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 18px;
-    color: #1d1d1f;
-    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-indent: 0px;
+    max-width: 700px;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    top: 10%;
+    left: 0%;
+    transform: translateY(40%);
 }
 
+:root
+{
+    --clr-neutral-900:hsl(17, 19%, 10%);
+    --clr-neutral-100:hsl(0, 0%, 100%);
+    --clr-neutral-400:hsl(97, 6%, 59%);
 
-:root {
-    --clr-neutral-900: hsl(17, 19%, 10%);
-    --clr-neutral-100: hsl(0, 0%, 100%);
-    --clr-neutral-400: hsl(97, 6%, 59%);
-    --clr-accent-400: hsl(0, 0%, 0%); /* Update with desired color */
 }
 
 *,
-*::before,
-*::after {
+*::before, *::after
+{
     box-sizing: border-box;
 }
 
-.card {
-    transform: translateY(50%);
+.card
+{
+    transform: translateY(30%);
     color: #f5f5ff;
-    background-image: url(Images/pexels-pew-nguyen-239548.jpg);
+    background-image: url(Images/pexels-rodnae-productions-10474131.jpg);
     background-size: cover;
     padding: 10rem 0 0;
-    max-width: 35ch;
+    max-width: 40ch;
     border-radius: 0.5em;
     overflow: hidden;
     margin: 0 auto 40px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-content {
+.card-content
+{
     --padding: 1.5rem;
     padding: var(--padding);
     background: linear-gradient(
         hsl(0 17% 16% / 0),
         hsl(20 17% 16% / 0.3) 20%,
-        hsl(0 17% 16% / 1)
-    );
+         hsl(0 17% 16% / 1));
+        
+
 }
 
-.card-heading {
+.card-heading
+{
     position: relative;
     width: max-content;
-    font-size: 20px;
+   
+
+}
+.card-frame
+{
+    text-indent: 0px;
+    display: flex;
+    text-align: left;
+
 }
 
-.card-heading::after {
+.card-heading::after
+{
     content: "";
     position: absolute;
     height: 1px;
-    left: calc(var(--padding) * -1);
-    bottom: 0;
+    left: calc(var(--padding)*-1);
+
+     bottom: 0;
     width: calc(100% + var(--padding));
     background: var(--clr-accent-400);
 }
 
-.card-frame {
-    text-indent: 0px;
-    display: flex;
-    text-align: left;
-}
-
-.button {
+.button
+{
     cursor: pointer;
     display: inline;
     text-decoration: none;
@@ -377,36 +305,38 @@ b {
     padding: 0.5em 1.25em;
 }
 
-.button:hover,
-.button:focus {
+.button:hover, .button:focus
+{
     background-color: var(--clr-neutral-100);
 }
 
 * {
     box-sizing: border-box;
-}
+  }
 
-.row .column {
-    float:left;
-    width: 50%;
-}
 
-.row:after {
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  
+  .row:after {
     content: "";
     display: table;
     clear: both;
-}
-   
-footer{
+  }
+
+ 
+  footer{
     position: absolute;
-    margin-bottom: auto;
     bottom: 0;
     left: 0;
     right: 0;
     background: #cdaf96;
     height: auto;
     width: 100vw;
-    font-family: 'Montserrat-Regular',Arial, sans-serif;
+    font-family: "Open Sans";
     padding-top: 40px;
     color: #1d1d1f;
 }
@@ -441,7 +371,7 @@ footer{
 }
 .socials a{
     text-decoration: none;
-    
+   
     color: #f5f5ff;
 }
 .socials a i{
@@ -452,20 +382,6 @@ footer{
 .socials a:hover i{
     color: #322219;
 }
-
-#words{
-     min-height: 100vh;
-}
-
-
-section
-{
-    width: 100%;
-    float: left;
-    height: 100vh;
-    position: relative;
-}
-
 
 @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {
@@ -500,8 +416,3 @@ section
       padding: 40px;
     }
   }
-
-
-  
-  
-  

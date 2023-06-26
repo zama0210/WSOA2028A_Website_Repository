@@ -322,12 +322,12 @@ section
 }
 
 .card {
-    transform: translateY(60%);
+    transform: translateY(50%);
     color: #f5f5ff;
-    background-image: url(/Images/pexels-picjumbocom-196645.jpg);
+    background-image: url(Images/pexels-picjumbocom-196646.jpg);
     background-size: cover;
     padding: 10rem 0 0;
-    max-width: 45ch;
+    max-width: 35ch;
     border-radius: 0.5em;
     overflow: hidden;
     margin: 0 auto 40px auto;
@@ -386,7 +386,7 @@ section
 
 .row .column {
     float: left;
-    width: 33.33%;
+    width: 50%;
 }
 
 .row:after {
@@ -407,9 +407,8 @@ section
  
 
   
-footer{
+  footer{
     position: absolute;
-    margin-bottom: auto;
     bottom: 0;
     left: 0;
     right: 0;
