@@ -339,8 +339,9 @@ b {
 }
 
 .card-content {
-    --padding: 1.8rem;
+    --padding: 1.5rem;
     padding: var(--padding);
+    margin-bottom: 2rem; 
     background: linear-gradient(
         hsl(0 17% 16% / 0),
         hsl(20 17% 16% / 0.3) 20%,
