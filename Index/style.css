@@ -324,7 +324,7 @@ section
 .card {
     transform: translateY(50%);
     color: #f5f5ff;
-    background-image: url(Images/pexels-picjumbocom-196646.jpg);
+    background-image: url(/Images/pexels-picjumbocom-196646.jpg);
     background-size: cover;
     padding: 10rem 0 0;
     max-width: 35ch;

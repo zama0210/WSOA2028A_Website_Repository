@@ -328,10 +328,10 @@ b {
 .card {
     transform: translateY(50%);
     color: #f5f5ff;
-    background-image: url(Images/pexels-pew-nguyen-239548.jpg);
+    background-image: url(/Images/Study.jpeg);
     background-size: cover;
-    padding: 10rem 0 0;
-    max-width: 35ch;
+    padding: 15rem 0 0;
+    max-width: 60ch;
     border-radius: 0.5em;
     overflow: hidden;
     margin: 0 auto 40px auto;
@@ -339,7 +339,7 @@ b {
 }
 
 .card-content {
-    --padding: 1.5rem;
+    --padding: 1.8rem;
     padding: var(--padding);
     background: linear-gradient(
         hsl(0 17% 16% / 0),
